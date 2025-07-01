@@ -7,11 +7,13 @@ class ResShader:
 	const new_shader = "res://src/shader/new_shader.gdshader"
 
 
-const noise = "res://src/texture/noise.tres"
-const player = "res://src/texture/player.tres"
-
-
 class ResSpriteFrame:
 	const anim_a = "res://src/sprite_frames/anim_a.tres"
 	const player_anim = "res://src/sprite_frames/player_anim.tres"
 	const test_sprite_frames = "res://src/sprite_frames/test_sprite_frames.tres"
+
+
+const noise = "res://src/texture/noise.tres"
+const player = "res://src/texture/player.tres"
+
+

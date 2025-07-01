@@ -189,8 +189,10 @@ class_name R
 	
 	set_deferred("updating", false)
 
+
 func _filter_dir(file: String) -> bool:
 	return not file.ends_with("/")
+
 
 ## 创建新的配置脚本
 func create_new_config_script():
@@ -228,4 +230,6 @@ static func _filter(file_name_list: Array) -> Array:
 """
 	var err = ResourceSaver.save(script, script_path)
 	print_debug("创建全局资源名配置脚本结束：", err, "  ", error_string(err))
+	# 定位到创建的脚本的位置
+	EditorInterface.get_file_system_dock().navigate_to_path(script_path)
 	set_deferred("updating", false)
