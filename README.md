@@ -4,4 +4,10 @@
 
 ---
 
-自动将配置扫描的路径的资源，自动添加到 **R** 类名的脚本中，直接使用 R.GroupName.ResourceName 即可获得对应资源的完整路径，无需手动设置
+English  |  [中文](README_zh.md)
+
+---
+
+Automatically add the resources that configure the scanned path to the script with the class name `R`, and directly use `R.GroupName.ResourceName` to obtain the complete path of the corresponding resource without manual setting.
+
+![](IMAGE_01.png)
